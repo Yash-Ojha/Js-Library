@@ -123,7 +123,7 @@ function showNotes() {
       <td class="book">${element.book}</td>
       <td class="author">${element.author}</td>
       <td class="type">${element.type}</td>
-      <td><center><button class="btn" id="${index}" onclick="deleteNote(this.id)"><img src="img/delete.png" height="30px"></center></td>
+      <td><center><button class="btn" id="${index}" onclick="deleteNote(this.id)"><img src="delete.png" height="30px"></center></td>
   </tr>`;
     });
     let notesElm = document.getElementById("tableBook");
